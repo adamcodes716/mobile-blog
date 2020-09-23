@@ -22,7 +22,6 @@ const addBlogPost = dispatch => {
     dispatch({ type: 'add_blogpost' });
   };
 };
-
 const deleteBlogPost = dispatch => {
   return id => {
     dispatch({ type: 'delete_blogpost', payload: id });
